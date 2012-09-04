@@ -1,7 +1,7 @@
 var system = require('system');
 
 if (system.args.length !== 2) {
-    console.log('Usage: run-jasmine.js URL');
+    console.log('Usage: phantom_jasmine.js URL');
     phantom.exit(1);
 }
 
