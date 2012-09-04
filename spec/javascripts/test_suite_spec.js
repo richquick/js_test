@@ -53,7 +53,7 @@ describe('Slider:', function() {
     });
 
     it('Checks that function ShowSliderBanner() exists', function() {
-        expect(typeof ShowSliderBanner).toEqual('cat');
+        expect(typeof ShowSliderBanner).toEqual('function');
     });
 });
 
@@ -77,7 +77,7 @@ describe('Tabs:', function() {
 
 describe('Captions:', function() {
     it('Checks that function InitCaption() exists', function() {
-        expect(typeof InitCaption).toEqual('cat');
+        expect(typeof InitCaption).toEqual('function');
     });
 });
 

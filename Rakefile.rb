@@ -23,14 +23,15 @@ namespace :ac do
   task :pull do
     git_path = `which git`.delete("\n")
     server == 'dev' ? branch = 'dev' : branch = 'master'
-    cmd = "sh -c \"cd /github/ && #{git_path} pull origin #{branch}\""
+    server == 'dev' ? github_path = '/Users/rich/Documents/github/js_test/' : github_path = '/github/'
+    cmd = "sh -c \"cd #{github_path} && #{git_path} pull origin #{branch}\""
     puts "Try a Git pull:"
     fail unless system cmd
   end
 
   desc "Move all files from the github directory to the right location"
   task :move => [:tests] do
-    nomedia_files = {}
+
     if server == 'live'  
       from_path = '/github/'
       to_path = '/var/www/html/'

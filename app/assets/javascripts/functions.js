@@ -3,6 +3,7 @@
 * Global variable container
 *
 */
+/*
 var ac_web = {
     browser: {
         ie_6: typeof document.body.style.maxHeight === 'undefined',
@@ -16,8 +17,10 @@ var ac_web = {
 	z_index_counter: 1,
 	browser_width: $('body').width()
 }
+*/
 
 
+/*
 ac_web.ToolTip = Backbone.Model.extend ({
 	defaults: {
 		title: 'this is a tool tip',
@@ -25,6 +28,7 @@ ac_web.ToolTip = Backbone.Model.extend ({
 		container: null
 	}
 });
+*/
 
 window.onresize = function() {
 	//Functions to take place on Window Resize
