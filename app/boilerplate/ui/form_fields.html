@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="viewport" content="width=500" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/default.css" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/print.css" media="print" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="ui_specific.css" charset="utf-8" />
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="../../assets/styles/no-media.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="../../assets/styles/ie6.css" charset="utf-8" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="../../assets/js/pngfix.js" charset="utf-8"></script>
+<![endif]-->
+<!--[if IE 7]>
+<link type="text/css" rel="stylesheet" href="../../assets/styles/ie7.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="../../assets/styles/ie8.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="../../assets/styles/ie9.css" charset="utf-8" />
+<![endif]-->
+</head>
+
+<body class="no_js">
+<h1>Form Fields</h1>
+<!-- NOTE: NEVER USE THE XMP TAG IN AN ACTUAL SITE!!! //-->
+<!-- input[type="text"], input.type-text, input[type="password"], input.type-password, input[type="email"], input.type-email, input[type="search"], input.type-search, input[type="date"], input.type-date, textarea, input[type="url"], input.type-url, input[type="tel"], input.type-tel, input[type="number"], input.type-number, input[type="time"], input.type-time, .multiselect {
+//-->
+<section>
+	<h1>Field &amp; Label (with structure)</h1>
+	<ul class="element_holder">
+		<li>
+			<h2>Input (text) &amp; Label</h2>
+			<xmp>
+<form action="#" method="post">
+	<ul>
+		<li>
+			<label for="id_0">Text Field</label>
+			<input type="text" name="text_field" id="id_0" />
+		</li>
+	</ul>
+</form>
+			</xmp>
+			<form action="#" method="post">
+				<ul>
+					<li>
+						<label for="id_0">Text Field</label>
+						<input type="text" name="text_field" id="id_0" />
+					</li>
+				</ul>
+			</form>
+		</li>
+		<li>
+			<h2>Input (text) &amp; label - condensed</h2>
+			<xmp>
+<form action="#" method="post">
+	<ul class="condensed">
+		<li>
+			<label for="id_0">Text Field</label>
+			<input type="text" name="text_field" id="id_0" />
+		</li>
+	</ul>
+</form>
+			</xmp>
+			<form action="#" method="post">
+				<ul>
+					<li class="tight">
+						<label for="id_0">Text Field</label>
+						<input type="text" name="text_field" id="id_0" />
+					</li>
+				</ul>
+			</form>
+		</li>
+	</ul>
+</section>
+<section>
+	<h1>Standalone fields</h1>
+	<ul class="element_holder">
+		<li>
+			<h2>Input (text)</h2>
+			<xmp><input type="text" name="text_field" id="id_1" /></xmp>
+			<input type="text" name="text_field" id="id_1" />
+		</li>
+		<li>
+			<h2>Select</h2>
+			<xmp>
+<select name="select_field" id="select_1">
+	<option value="value" selected="selected">Value</option>
+	<option value="value">Value</option>
+	<option value="value">Value</option>
+</select> 
+			</xmp>
+			<select name="select_field" id="select_1">
+				<option value="v1" selected="selected">Value 1</option>
+				<option value="v2">Value 2</option>
+				<option value="v3">Value 3</option>
+			</select> 
+		</li>
+		<li>
+			<h2>Textarea</h2>
+			<xmp><textarea name="textarea_field" id="textarea1"></textarea></xmp>
+			<textarea name="textarea_field" id="textarea1"></textarea>
+		</li>
+		<li>
+			<h2>Radio</h2>
+			TBC
+		</li>
+		<li>
+			<h2>Check boxes</h2>
+			TBC
+		</li>
+		<li>
+			<h2>Input (password)</h2>
+			<xmp><input type="password" name="password_field" id="id_2" /></xmp>
+			<input type="password" name="password_field" id="id_2" />
+		</li>
+		<li>
+			<h2>Input (tel)</h2>
+			<xmp><input type="tel" name="tel_field" id="id_1" /></xmp>
+			<input type="tel" name="tel_field" id="id_1" />
+		</li>
+		<li>
+			<h2>Input (email)</h2>
+			<xmp><input type="email" name="email_field" id="id_3" /></xmp>
+			<input type="email" name="email_field" id="id_3" />
+		</li>
+		<li>
+			<h2>Input (search)</h2>
+			<xmp><input type="search" name="search_field" id="id_4" /></xmp>
+			<input type="search" name="search_field" id="id_4" />
+		</li>
+		<li>
+			<h2>Input (date - with picker)</h2>
+			<xmp><input type="text" name="date_picker_field" class="date_picker" id="id_5" /></xmp>
+			<input type="text" name="date_picker_field" class="date_picker" id="id_5" />
+		</li>
+		<li>
+			<h2>Input (date - with picker - start today)</h2>
+			<xmp><input type="text" name="date_picker_field" class="date_picker start_today" id="id_5a" /></xmp>
+			<input type="text" name="date_picker_field" class="date_picker start_today" id="id_5a" />
+		</li>
+		<li>
+			<h2>Input (date - with picker - start tomorrow)</h2>
+			<xmp><input type="text" name="date_picker_field" class="date_picker start_tomorrow" id="id_5b" /></xmp>
+			<input type="text" name="date_picker_field" class="date_picker start_tomorrow" id="id_5b" />
+		</li>
+		<li>
+			<h2>Input (date)</h2>
+			<xmp><input type="date" name="date_field" id="id_6" /></xmp>
+			<input type="date" name="date_field" id="id_6" />
+		</li>
+		<li>
+			<h2>Input (url)</h2>
+			<xmp><input type="url" name="url_field" id="id_7" /></xmp>
+			<input type="url" name="url_field" id="id_7" />
+		</li>
+		<li>
+			<h2>Input (number)</h2>
+			<xmp><input type="number" name="number_field" id="id_8" /></xmp>
+			<input type="number" name="number_field" id="id_8" />
+		</li>
+		<li>
+			<h2>Input (time)</h2>
+			<xmp><input type="time" name="time_field" id="id_9" /></xmp>
+			<input type="time" name="time_field" id="id_9" />
+		</li>
+		<li>
+			<h2>Select (multi-line)</h2>
+			<xmp>
+<select name="select_field" id="select_1" size="3">
+	<option value="value" selected="selected">Value</option>
+	<option value="value">Value</option>
+	<option value="value">Value</option>
+</select> 
+			</xmp>
+			<select name="select_field" id="select_1" size="4">
+				<option value="v1" selected="selected">Value 1</option>
+				<option value="v2">Value 2</option>
+				<option value="v3">Value 3</option>
+				<option value="v4">Value 4</option>
+				<option value="v5">Value 5</option>
+				<option value="v6">Value 6</option>
+			</select> 
+		</li>
+		<li>
+			<h2>Select (with optgroups)</h2>
+			<xmp>
+<select name="select_field" id="select_1">
+	<optgroup label="Category 1">
+		<option value="v1" selected="selected">Value 1</option>
+		<option value="v2">Value 2</option>
+	</optgroup>
+	<optgroup label="Category 2">
+		<option value="v3">Value 3</option>
+	</optgroup>
+</select> 
+			</xmp>
+			<select name="select_field" id="select_1">
+				<optgroup label="Category 1">
+					<option value="v1" selected="selected">Value 1</option>
+					<option value="v2">Value 2</option>
+				</optgroup>
+				<optgroup label="Category 2">
+					<option value="v3">Value 3</option>
+				</optgroup>
+			</select> 
+		</li>
+	</ul>
+</section>
+
+<section>
+	<h1>Buttons</h1>
+	<p>See <a href="buttons.html">buttons</a></p>
+</section>
+
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/underscore.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/backbone.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/functions.js" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function() {
+        Init();
+    })
+</script>
+</html>

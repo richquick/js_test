@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Homepage Slider Utility Example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="viewport" content="width=500" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/default.css" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/print.css" media="print" charset="utf-8" />
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/no_media.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie6.css" charset="utf-8" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="../../assets/js/pngfix.js" charset="utf-8"></script>
+<![endif]-->
+<!--[if IE 7]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie7.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie8.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie9.css" charset="utf-8" />
+<![endif]-->
+</head>
+
+<body class="homepage_slider_utility no_js">
+	<div class="wrapper">
+		<h1>Homepage Slider Utility Example</h1>
+    	<ul class="slider auto_off">
+<!--        	<li class="slider_prev"><a href="#">Previous Ad</a></li>
+        	<li class="slider_next"><a href="#">Next Ad</a></li>-->
+        	<li class="current" style="background-image:url(../assets/images/homepage_banners/change-bg.jpg);display:list-item;">
+        	    <div class="x" style="background-image:url(../assets/images/homepage_banners/change-bg-mid.jpg);">
+            	    <ul class="x">
+                	    <li class="large_format">
+                    	    <a href="http://www.arnoldclark.com/change/"><img src="../../assets/images/homepage_banners/change.png" alt="Change would do you good" /></a>
+                            <a href="http://www.arnoldclark.com/change/" class="more_link">Find out more</a>
+                        </li>
+                        <li class="small_format">
+                            <a href="http://www.arnoldclark.com/change/"><img src="../../assets/images/homepage_banners/change-small.gif" alt="Change would do you good" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li style="background-image:url(../assets/images/homepage_banners/whats-new-bg.jpg);">
+                <div class="x" style="background-image:url(../assets/images/homepage_banners/whats-new-bg-mid.jpg);">
+            	    <ul class="x">
+                	    <li class="large_format">
+                    	    <a href="http://www.arnoldclark.com/whats-new/"><img src="../../assets/images/homepage_banners/whats-new.png" alt="Freewheelin" /></a>
+                            <a href="http://www.arnoldclark.com/whats-new/" class="more-link alt-link">Find out more</a>
+                        </li>
+                        <li class="small_format">
+                            <a href="http://www.arnoldclark.com/whats-new/"><img src="../../assets/images/homepage_banners/whats-new-small.gif" alt="Freewheelin" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li style="background-image:url(../assets/images/homepage_banners/93947-rental-olympics-offer-bg-v2.jpg);display:list-item;background-repeat:repeat-x;">
+                <div class="x" style="background-image:url(../assets/images/homepage_banners/93947-rental-olympics-offer-bg-mid-v2.jpg);">
+            	    <ul class="x">
+                	    <li class="large_format">
+                    	    <a href="http://www.arnoldclarkrental.com"><img src="../../assets/images/homepage_banners/93947-rental-olypics-offer-web.png" alt="Arnold Clark Rental" /></a>
+                            <a href="http://www.arnoldclarkrental.com" class="more-link alt-link" style="color:#ffffff;">Find out more</a>
+                        </li>
+                        <li class="small_format">
+                            <a href="http://www.arnoldclarkrental.com"><img src="../../assets/images/homepage_banners/93947-rental-olypics-offer-mobile.jpg" alt="Arnold Clark Rental" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+	</div>
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/underscore.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/backbone.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/functions.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function () {
+		Init();
+	})
+</script>
+</html>

@@ -1,0 +1,42 @@
+.slider_container .pagination .slider_nav_elem a {
+	background: none;
+    background-color: transparent!important;
+    background-image: url(../images/nav-circles.gif)!important;
+    background-position: left 0;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.slider_container .pagination .slider_nav_elem a:hover,
+.slider_container .pagination .slider_nav_elem.current a {
+	background-color: transparent!important;
+	background-image: url(../images/nav-circles.gif);
+	background-position: left -100px;
+    background-repeat: no-repeat;
+}
+
+.tool_tip {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686868', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+}
+
+.js .nav_tabs {
+	left: -6px;
+}
+
+.js .tab_container {
+	border: solid 1px #CCCCCC;
+	box-shadow: none;
+}
+
+.js .nav_tabs .current a {
+	border-top: solid 1px #CCCCCC;
+	border-left: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	box-shadow: none;
+}
+
+.dropdown li ul {
+	border: 1px solid #EEEEEE;
+}

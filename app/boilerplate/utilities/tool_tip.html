@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tool Tip Utility Example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="viewport" content="width=500" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/default.css" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/print.css" media="print" charset="utf-8" />
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/no_media.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie6.css" charset="utf-8" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="../../assets/js/pngfix.js" charset="utf-8"></script>
+<![endif]-->
+<!--[if IE 7]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie7.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie8.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie9.css" charset="utf-8" />
+<![endif]-->
+</head>
+
+<body class="tool_tip_utility no_js">
+    <div class="wrapper">
+        <h1>Tool Tip Utility Example</h1>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span title="This is tool tip 1" class="tool_tip_container">Example 1 (short text)</span> Ut tempus faucibus turpis, at ultricies risus lacinia in. In hac habitasse platea dictumst. Praesent interdum, justo sed consectetur tincidunt, nunc risus egestas nisi, eu posuere nulla nisi a nulla. Fusce rhoncus, enim ut tincidunt accumsan, risus massa hendrerit risus, quis feugiat diam sapien auctor <span class="tool_tip_container">Example 2 (no text)</span> diam. Praesent vel nisi eget felis iaculis tincidunt. Vestibulum sit amet  venenatis libero. Mauris elit purus, pellentesque eu fermentum et, aliquet in eros. Cras varius dui vitae tortor dictum bibendum. Nunc fringilla <span title="This is tool tip 3. It is a tool tip. Tool tip tool tip. This is tool tip 3." class="tool_tip_container">Example 3 (long text)</span> ultricies gravida. Vivamus feugiat urna ac nisi sollicitudin ornare.</p>
+    </div>
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/underscore.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/backbone.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/functions.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function () {
+		Init();
+	})
+</script>
+</html>

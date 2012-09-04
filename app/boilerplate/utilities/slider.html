@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Slider Utility Example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="viewport" content="width=500" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/default.css" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/print.css" media="print" charset="utf-8" />
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/no_media.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie6.css" charset="utf-8" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="../../assets/javascripts/pngfix.js" charset="utf-8"></script>
+<![endif]-->
+<!--[if IE 7]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie7.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie8.css" charset="utf-8" />
+<![endif]-->
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="../../assets/stylesheets/ie9.css" charset="utf-8" />
+<![endif]-->
+</head>
+
+<body class="slider_utility no_js">
+	<div class="wrapper">
+		<h1>Slider Utility Example</h1>
+
+		<h2>One Banner</h2>
+		<ul class="slider">
+			<li class="current">
+				<a href="/"><img src="../content/banners/banner-2.jpg" alt="Image 2" /></a>
+			</li>
+		</ul>
+
+		
+		<h2>All Options On (Default)</h2>
+		<ul class="slider">
+			<li class="current">
+				<a href="/"><img src="../content/banners/banner-2.jpg" alt="Image 2" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-1.jpg" alt="Image 1" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-3.jpg" alt="Image 3" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-1.jpg" alt="Image 4" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-3.jpg" alt="Image 3" /></a>
+			</li>
+		</ul>
+
+
+		<h2>Auto Scroll Off</h2>
+		<ul class="slider auto_off">
+			<li class="current">
+				<a href="/"><img src="../content/banners/banner-2.jpg" alt="Image 2" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-1.jpg" alt="Image 1" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-3.jpg" alt="Image 3" /></a>
+			</li>
+		</ul>
+		
+		<h2>Arrows Off</h2>
+		<ul class="slider arrows_off">
+			<li class="current">
+				<a href="/"><img src="../content/banners/banner-2.jpg" alt="Image 2" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-1.jpg" alt="Image 1" /></a>
+			</li>
+		</ul>
+		
+		<h2>Pagination Off</h2>
+		<ul class="slider pagination_off">
+			<li class="current">
+				<a href="/"><img src="../content/banners/banner-2.jpg" alt="Image 2" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-1.jpg" alt="Image 1" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-3.jpg" alt="Image 3" /></a>
+			</li>
+		</ul>
+
+		<h2>Slide Transition</h2>
+		<ul class="slider transition_slide">
+			<li class="current">
+				<a href="/"><img src="../content/banners/banner-2.jpg" alt="Image 2" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-1.jpg" alt="Image 1" /></a>
+			</li>
+			<li>
+				<a href="/"><img src="../content/banners/banner-3.jpg" alt="Image 3" /></a>
+			</li>
+		</ul>
+	</div>
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/underscore.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/backbone.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../assets/javascripts/functions.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function () {
+		Init();
+	})
+</script>
+</html>
